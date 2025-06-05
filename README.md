@@ -1,6 +1,7 @@
 ``` kotlin
 val erlan = profile {
     fullName = "Erlanbek"
+
     domains {
         android()
         ios()
