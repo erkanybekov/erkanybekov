@@ -1,16 +1,38 @@
 ## Hi there 👋
-
-<!--
-**erkanybekov/erkanybekov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+val erlan = profile {
+    fullName = "Erlanbek"
+    domains {
+        android {
+            kotlin()
+            jetpackCompose()
+            room()
+            Coroutines()
+            gradleKts()
+        }
+        ios {
+            swift()
+            spm()
+            swiftUI()
+        }
+        crossPlatform {
+            flutter()
+            kmp()
+        }
+        backend {
+            kotlin()
+            springBoot()
+        }
+        dataScience {
+            python()
+            pandas()
+            sql()
+            sklearn()
+            juypyterNoteBook()
+            kotlinNoteBook()
+        }
+    }
+    values {
+        +"🔍 Curiosity > Comfort zone"
+    }
+    quote = "Clean code. Clean mind ✨"
+}
