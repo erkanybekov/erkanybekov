@@ -13,6 +13,7 @@ val erlan = profile {
             swift()
             spm()
             swiftUI()
+            uiKit()
         }
         crossPlatform {
             flutter()
