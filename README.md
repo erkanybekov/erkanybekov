@@ -2,19 +2,8 @@
 val erlan = profile {
     fullName = "Erlanbek"
     domains {
-        android {
-            kotlin()
-            jetpackCompose()
-            room()
-            Coroutines()
-            gradleKts()
-        }
-        ios {
-            swift()
-            spm()
-            swiftUI()
-            uiKit()
-        }
+        android()
+        ios()
         crossPlatform {
             flutter()
             kmp()
@@ -25,7 +14,6 @@ val erlan = profile {
         }
         dataScience {
             python()
-            pandas()
             sql()
             sklearn()
             juypyterNoteBook()
