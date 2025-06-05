@@ -16,7 +16,6 @@ val erlan = profile {
         dataScience {
             python()
             sql()
-            sklearn()
             juypyterNoteBook()
             kotlinNoteBook()
         }
