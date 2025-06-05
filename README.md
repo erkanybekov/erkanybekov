@@ -1,4 +1,5 @@
 ## Hi there 👋
+``` kotlin
 val erlan = profile {
     fullName = "Erlanbek"
     domains {
@@ -36,3 +37,4 @@ val erlan = profile {
     }
     quote = "Clean code. Clean mind ✨"
 }
+```
