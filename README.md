@@ -1,4 +1,3 @@
-## Hi there 👋
 ``` kotlin
 val erlan = profile {
     fullName = "Erlanbek"
