@@ -10,8 +10,9 @@ val erlan = profile {
             kmp()
         }
         backend {
-            kotlin()
+            ktor()
             springBoot()
+            vapor()
         }
         dataScience {
             python()
