@@ -1,29 +1,12 @@
 ``` kotlin
-val erlan = profile {
-    fullName = "Erlanbek"
-
-    domains {
-        android()
-        ios()
-        crossPlatform {
-            flutter()
-            kmp()
-        }
-        backend {
-            ktor()
-            springBoot()
-            vapor()
-        }
-        dataScience {
-            python()
-            sql()
-            jupyterNoteBook()
-            kotlinNoteBook()
-        }
+val me = profile {
+    name = "Erlanbek"
+    expertise {
+        mobile { android() + ios() }
+        crossPlatform { flutter() + kmp() }
+        backend { ktor() + springBoot() + vapor() }
+        data { python() + sql() + jupyter() }
     }
-    values {
-        +"🔍 Curiosity > Comfort zone"
-    }
-    quote = "Clean code. Clean mind ✨"
+    philosophy = "Clean code. Clean mind ✨"
 }
 ```
